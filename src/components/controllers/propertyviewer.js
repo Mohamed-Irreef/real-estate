@@ -107,10 +107,10 @@ const initViewerApp = function (initPropID) {
             <nav id="navright" class="nav">
                 <ul class="slider-ul">
                     <li class="slider-li">
-                        <a class="sliderA" :class="{'is-active': isCurrentPage('vtour.html')}" href="/MyHome_realestate/vtour.html"><span class="navSpan">Virtual Tour</span></a>
+                        <a class="sliderA" :class="{'is-active': isCurrentPage('vtour.html')}" href="/vtour.html"><span class="navSpan">Virtual Tour</span></a>
                     </li>
                     <li class="slider-li">
-                    <a class="sliderA" :class="{'is-active': isCurrentPage('index.html')}" href="/MyHome_realestate/index.html"><span class="navSpan">Home</span></a>
+                    <a class="sliderA" :class="{'is-active': isCurrentPage('index.html')}" href="/index.html"><span class="navSpan">Home</span></a>
                     </li>
                     <li class="slider-li">
                             <a class="sliderA" href="#"><span class="navSpan">About</span></a>

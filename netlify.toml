@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "docs"
+
+# This is a multi-page app with physical HTML files, so no SPA catch-all redirect is needed.
+
+[[redirects]]
+  from = "/MyHome_realestate/*"
+  to = "/:splat"
+  status = 301
